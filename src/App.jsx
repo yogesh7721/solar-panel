@@ -8,6 +8,7 @@ import About from './pages/About'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import LocationScreen from './pages/LocationScreen'
+import LoginPage from './pages/LoginPage'
 
 const App = () => {
   return <>
@@ -16,6 +17,7 @@ const App = () => {
         <Navbar />
       </div>
       <Routes>
+
         <Route path='/' element={<HomePage />} />
         <Route path='/service' element={<Service />} />
         <Route path='/about' element={<About />} />

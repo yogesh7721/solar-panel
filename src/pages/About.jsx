@@ -46,15 +46,15 @@ const About = () => {
                                 alt="Solar Panel Cleaning Brush"
                                 className="h-32 mt-10 lg:mt-20 w-auto shadow-lg rounded-md cursor-pointer"
                             />
-                            <motion.img
+                            {/* <motion.img
                                 initial={{ x: 100, opacity: 0 }}
                                 whileInView={{ x: 10, opacity: 1 }}
                                 whileHover={{ scale: 1.1, rotate: -2 }}
                                 transition={{ duration: 0.5, delay: 0.2 }}
-                                src="https://exterior-cleaning-solutions.co.uk/wp-content/uploads/2024/05/Industrial-Scale-Solar-Panel-Cleaning-Challenges-and-Solutions.jpg"
+                                src="https://www.freepik.com/premium-photo/solar-worker-cleaning-photovoltaic-panels-with-brush-water-photovoltaic-cleaning_16032442.htm#fromView=keyword&page=1&position=6&uuid=6fb520f1-acc4-449e-bfbd-2c4b968112c4&query=Solar+Panel+Cleaning"
                                 alt="Industrial Solar Cleaning"
                                 className="h-40 lg:h-52 w-48 md:w-auto lg:w-auto rounded-md cursor-pointer"
-                            />
+                            /> */}
                         </div>
                         <motion.img
                             initial={{ y: 100, opacity: 0 }}
@@ -201,8 +201,9 @@ const About = () => {
 
 
             </div>
-        </div>
+        </div >
     );
 };
 
 export default About;
+
