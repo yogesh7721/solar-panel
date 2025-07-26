@@ -81,9 +81,9 @@ const Footer = () => {
                 <div className="hidden md:block lg:block">
                     <p className="text-gray-500 text-sm">
                         <span className="flex justify-center items-center">
-                            &copy; {new Date().getFullYear()} Solar Cleaner Shop. Created By Someshwar.
+                            &copy; {new Date().getFullYear()} Solar Cleaner Shop. Created By Yogesh Shelke.
                             <a
-                                href="mailto:someshwarsholkar22@gmail.com?subject=Hello%20Developer%20-%20Fullstack%20Developer%20Opportunity&body=Hello%20Developer,%0A%0AI%20am%20interested%20in%20hiring%20you%20as%20a%20Fullstack%20Developer.%20I%20am%20willing%20to%20discuss%20compensation%20and%20details%20further.%0A%0ABest%20regards,%0A[Your%20Name]"
+                                href="mailto:shelkeyogesh874@gmail.com?subject=Hello%20Developer%20-%20Fullstack%20Developer%20Opportunity&body=Hello%20Developer,%0A%0AI%20am%20interested%20in%20hiring%20you%20as%20a%20Fullstack%20Developer.%20I%20am%20willing%20to%20discuss%20compensation%20and%20details%20further.%0A%0ABest%20regards,%0A[Your%20Name]"
                                 className="text-sky-400 ml-2"
                             >
                                 <MdOutlineMailOutline />
